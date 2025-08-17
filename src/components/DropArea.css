@@ -1,0 +1,15 @@
+.drop_area {
+  width: 100%;
+  border: 1px solid #dad6d6;
+  padding: 16px 12px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  overflow: visible;
+  margin-bottom: 8px;
+  opacity: 1;
+  transition: all 0.2 ease-in-out;
+}
+.drop_area_hide {
+  opacity: 0;
+}

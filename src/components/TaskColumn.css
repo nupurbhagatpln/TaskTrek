@@ -1,0 +1,20 @@
+.task-column-img {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
+.task_column {
+  width: 33.33%;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  flex-direction: column;
+}
+.title-heading {
+  margin-bottom: 24px;
+}
+.task-card-wrapper {
+  width: 100%;
+}

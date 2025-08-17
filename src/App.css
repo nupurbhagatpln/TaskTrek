@@ -1,0 +1,8 @@
+.app{
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+.app_main{
+  padding: 0 20px 20px;
+  display: flex;
+}

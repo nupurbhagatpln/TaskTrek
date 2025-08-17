@@ -1,0 +1,47 @@
+.app_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eae9e9;
+}
+
+.app_header > form {
+  width: 40%;
+}
+.task_input {
+  font-size: 20px;
+  font-weight: 500;
+  background: #f9f9f9;
+  color: #000;
+  border: 1px solid #dfe3e6;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.taks_form_bottom_line {
+  display: flex;
+  justify-content: space-between;
+}
+.tag_container,
+.status_container {
+  display: flex;
+  gap: 4px;
+}
+
+.task_submit {
+  padding: 4px 8px;
+  border: 1px solid #5e5ef1;
+  background: #f7f3fc;
+  color: #5e5ef1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.task_statuc {
+  padding: 4px 8px;
+  border: 1px solid #1a9959;
+  background: #ffffff;
+  color: #1a9959;
+  border-radius: 4px;
+  cursor: pointer;
+}
